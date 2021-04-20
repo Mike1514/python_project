@@ -1,0 +1,9 @@
+import random
+a = [random.randint(0, 9) for i in range(15)]
+
+b = [i for i in a if i == 0]
+d = [i for i in a if i == 3]
+
+print(a)
+print("кількість трійок: ", len(b))
+print("кількість нулів: ", len(d))
